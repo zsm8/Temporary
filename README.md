@@ -1,1 +1,1 @@
-I'm adding some text and then committing and then pushing to the remote repository. And then see what the desktop does.
+2/8/17 - Edit the readme on zsm8/Temporary
