@@ -8,5 +8,10 @@ android:
     - build-tools-25.0.2
     - android-25
 
+sudo: required
+
+before_script:
+  - chmod +x gradlew
+
 script:
    - ./gradlew build connectedCheck
