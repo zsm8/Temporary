@@ -28,12 +28,3 @@ before_script:
 
 script:
   - ./gradlew assembleDebug --stacktrace
-
-deploy:
-  provider: releases
-  api-key: $GITHUB_APIKEY
-  file: "app/build/outputs/apk/app-debug.apk"
-  skip_cleanup: true
-  on:
-    tags: true
-    all_branches: true
