@@ -12,10 +12,21 @@ buildscript {
     }
 }
 
+apply plugin: 'com.android.application'
+
 allprojects {
     repositories {
         jcenter()
     }
+}
+
+android {
+	compileSdkVersion 25
+	buildToolsVersion "25.0.2"
+	
+	defaultConfig {
+		targetSdkVersion 25
+	}
 }
 
 task clean(type: Delete) {
