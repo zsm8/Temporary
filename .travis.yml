@@ -24,4 +24,4 @@ jdk:
 install: true
 
 script:
-  - ./gradlew build
+  - ./RecipeAssistant/gradlew build
