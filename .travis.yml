@@ -10,18 +10,18 @@ android:
   licenses:
     - '.+'
 
+before_install:
+  - chmod +x gradlew
+
+before_script:
+  - chmod +x gradlew
+
 sudo: required
 
 jdk:
   - oraclejdk8
 
-before_install:
-  - chmod +x gradlew
-
 install: true
-
-before_script:
-  - chmod +x gradlew
 
 script:
   - ./gradlew assembleDebug
